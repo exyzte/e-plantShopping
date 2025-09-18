@@ -8,7 +8,7 @@ export const CartSlice = createSlice({
   reducers: {
     addItem: (state, action) => {
     const { name, image, cost } = action.payload;
-    const existingItem = state.items.find(item => item.name === newItem.name)
+    const existingItem = state.items.find(item => item.name === name)
     if (existingItem) {
         existingItem.quantity++;
     } else {
@@ -17,7 +17,7 @@ export const CartSlice = createSlice({
     },
     removeItem: (state, action) => {
         const itemToRemove = action.payload;
-        const itemIndex = state.items.findIndex(item => item.name === itemToToRemove);
+        const itemIndex = state.items.findIndex(item => item.name === itemToRemove);
         if (itemIndex > -1) {
             state.items.splice(itemIndex, 1);
         }
