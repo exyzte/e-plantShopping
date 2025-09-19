@@ -1,24 +1,24 @@
-
-import React, { useState } from 'react';
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { showProductListView } from './uiSlice';
+import CartItem from './CartItem';
 import ProductList from './ProductList';
 import './App.css';
 import AboutUs from './AboutUs';
 
 function App() {
-  
-  const [showProductList, setShowProductList] = useState(false);
+  const dispatch = useDispatch();
+  const isCartView = useSelector(state => state.ui.isCartView);
+  const showLandingPage = useSelector(state => state.ui.showLandingPage);
 
   const handleGetStartedClick = () => {
-    setShowProductList(true);
+    dispatch(showProductListView());
   };
 
-  const handleHomeClick = () => {
-    setShowProductList(false);
-  };
-
-  return (
-    <div className="app-container">
-      <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
+  const renderContent = () => {
+    if (showLandingPage) {
+        return (
+        <>
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
@@ -29,18 +29,23 @@ function App() {
             Get Started
           </button>
          </div>
-          <div className="aboutus_container">
-          <AboutUs/>
+            <div className="aboutus_container">
+                <AboutUs/>
+            </div>
           </div>
-          </div>
-
-      </div>
-      <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
-        <ProductList onHomeClick={handleHomeClick}/>
-      </div>
-    </div>
+      </>
   );
-}
+    } else if (isCartView) {
+        return <CartItem />
+    } else {
+        return <ProductList />
+    }
+  }
+
+  return (
+    <div className="app-container"></div>
+  )
+};
 
 
 
