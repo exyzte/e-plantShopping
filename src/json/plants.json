@@ -1,0 +1,239 @@
+{
+    "categories": [
+        {
+            "category": "Air Purifying Plants",
+            "plants": [
+                {
+                    "name": "Snake Plant (San Serviera)",
+                    "image": "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
+                    "description": "Produces oxygen at night, improving air quality.",
+                    "cost": "$15",
+                    "info-card": "The snake plant (Dracaena trifasciata) is a popular, low-maintenance houseplant known for its stiff, upright, sword-shaped leaves and tolerance for low-light conditions. Also called mother-in-law's tongue, it is an air-purifying plant that thrives in well-draining soil and prefers bright, indirect light but can adapt to lower light levels. It needs to be watered sparingly, only when the soil is completely dry, to prevent root rot."
+                },
+                {
+                    "name": "Spider Plant (Mala Madre)",
+                    "image": "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg",
+                    "description": "Filters formaldehyde and xylene from the air.",
+                    "cost": "$12",
+                    "info-card": "Spider plant properties include being a highly effective air purifier, capable of removing toxins like formaldehyde, xylene, and carbon monoxide from indoor air, in addition to producing oxygen. They are also known for being low-maintenance, pet-friendly and non-toxic, and contribute to natural humidity. Aesthetically, their long, striped leaves and hanging spiderettes add beauty to any space."
+                },
+                {
+                    "name": "Peace Lily (Espatifilo)",
+                    "image": "https://cdn.pixabay.com/photo/2019/06/12/14/14/peace-lilies-4269365_1280.jpg",
+                    "description": "Removes mold spores and purifies the air.",
+                    "cost": "$18",
+                    "info-card": "Peace Lily properties include exceptional air purification, filtering toxins like formaldehyde and benzene, and enhancing indoor air quality. These plants also contribute to a calming atmosphere, improve sleep, and can boost humidity through natural transpiration. Aesthetically, they offer elegant green foliage and white blooms and are known for being low-maintenance and tolerant of low-light conditions.  However, they are toxic to pets if ingested, so caution is advised in homes with animals."
+                },
+                {
+                    "name": "Boston Fern (Helecho Espada)",
+                    "image": "https://cdn.pixabay.com/photo/2020/04/30/19/52/boston-fern-5114414_1280.jpg",
+                    "description": "Adds humidity to the air and removes toxins.",
+                    "cost": "$20",
+                    "info-card": "Boston Ferns (Nephrolepis exaltata) are known for their lush, green, arching fronds and are excellent houseplants, prized for their ability to purify air, especially from pollutants like formaldehyde and xylene, and increase humidity. They thrive in bright, indirect light, consistently moist but not waterlogged soil, and are pet-friendly. While they prefer high humidity and warm temperatures, they are relatively drought-tolerant for a fern, can reach a height and spread of 2-3 feet, and are ideal for hanging baskets."
+                },
+                {
+                    "name": "Rubber Plant (Planta de Caucho)",
+                    "image": "https://cdn.pixabay.com/photo/2020/02/15/11/49/flower-4850729_1280.jpg",
+                    "description": "Easy to care for and effective at removing toxins.",
+                    "cost": "$17",
+                    "info-card": "Rubber Plants are low-maintenance, air-purifying houseplants known for their large, glossy leaves and ability to remove toxins like formaldehyde from the air. They are hypoallergenic, as they don't produce pollen or strong fragrances, making them ideal for people with allergies. With their elegant appearance and resilience, they enhance indoor aesthetics and are easy to propagate, offering both decorative and environmental benefits for home and office spaces."
+                },
+                {
+                    "name": "Aloe Vera (Sávila)",
+                    "image": "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
+                    "description": "Purifies the air and has healing properties for skin.",
+                    "cost": "$14",
+                    "info-card": "Aloe vera is a medicinal plant known for its anti-inflammatory, antioxidant, antibacterial, and wound-healing properties, thanks to its rich composition of polysaccharides, vitamins, enzymes, minerals, and amino acids. It is used to promote skin health by hydrating and healing wounds and burns, support digestion, help regulate blood sugar levels, and has applications in cosmetics and functional foods."
+                }
+                ]
+        },
+        {
+            "category": "Aromatic Fragrant Plants",
+            "plants": [
+                {
+                    "name": "Lavender (Lavanda)",
+                    "image": "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "description": "Calming scent, used in aromatherapy.",
+                    "cost": "$20",
+                    "info-card": "Lavender has medicinal properties, including anxiolytic (reducing anxiety), sedative, analgesic (pain-relieving), anti-inflammatory, and antimicrobial (antibacterial and antifungal) effects. It is widely used in aromatherapy for relaxation, to improve sleep quality, and to soothe stress and anxiety. Additionally, it can be used topically to aid in healing minor wounds, burns, and skin irritations by promoting skin health and providing a calming effect."
+                },
+                {
+                    "name": "Jasmine (Jazmín)",
+                    "image": "https://images.unsplash.com/photo-1592729645009-b96d1e63d14b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "description": "Sweet fragrance, promotes relaxation.",
+                    "cost": "$18",
+                    "info-card": "(Jasmineum) has medicinal uses like wound healing, stress reduction, and pain relief, as well as magical properties such as attracting love, prosperity, and promoting balance. Jasmine is also valued for its aromatic use in perfumes, cosmetics, and foods, and its antimicrobial and antioxidant qualities."
+                },
+                {
+                    "name": "Rosemary (Romero)",
+                    "image": "https://cdn.pixabay.com/photo/2019/10/11/07/12/rosemary-4541241_1280.jpg",
+                    "description": "Invigorating scent, often used in cooking.",
+                    "cost": "$15",
+                    "info-card": "Rosemary exhibits significant antioxidant, anti-inflammatory, and antimicrobial properties due to its rich phenolic compound content, particularly carnosic acid and rosmarinic acid. These properties contribute to its use in folk medicine for various conditions, including digestive issues, pain, anxiety, and memory enhancement. Rosemary also serves as a natural food preservative by preventing oxidation and microbial growth, and its extracts are studied for potential applications in skin care and neurological disorders."
+                },
+                {
+                    "name": "Mint (Menta)",
+                    "image": "https://cdn.pixabay.com/photo/2016/01/07/18/16/mint-1126282_1280.jpg",
+                    "description": "Refreshing aroma, used in teas and cooking.",
+                    "cost": "$12",
+                    "info-card": "Mint (Mentha species) possesses diverse medicinal properties, including digestive aid, with menthol relaxing stomach muscles and easing indigestion, bloating, and IBS symptoms. It also offers antioxidant, anti-inflammatory, antibacterial, and antiviral effects due to compounds like rosmarinic acid and luteolin, which protect against cell damage and infection. Additionally, mint can soothe respiratory symptoms, improve breath, reduce stress, alleviate nausea and headaches, and enhance brain function. "
+                },
+                {
+                    "name": "Lemon Balm (Toronjil / Bálsamo de limón)",
+                    "image": "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
+                    "description": "Citrusy scent, relieves stress and promotes sleep.",
+                    "cost": "$14",
+                    "info-card": "Lemon balm possesses sedative, antioxidant, anti-inflammatory, and antimicrobial properties, which stem from its rich composition of rosmarinic acid, flavonoids, and essential oils. It is used to reduce stress and anxiety, improve sleep, ease indigestion, and has been studied for its benefits in treating cold sores, supporting cognitive function, and managing symptoms of depression. "
+                },
+                {
+                    "name": "Hyacinth flower (Flor de Jacinto)",
+                    "image": "https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_1280.jpg",
+                    "description": "Hyacinth is a beautiful flowering plant known for its fragrant.",
+                    "cost": "$22",
+                    "info-card": "Hyacinth flower properties include a strong, sweet, and sometimes overpowering fragrance, vibrant colors from blue to pink to white, and a toxic bulb containing oxalic acid, which can cause skin irritation. The plant exhibits antimicrobial, anti-inflammatory, antiviral, and antiseptic properties, though it is not widely used medicinally."
+                }
+            ]
+        },
+        {
+            "category": "Insect Repellent Plants",
+            "plants": [
+                {
+                    "name": "oregano",
+                    "image": "https://cdn.pixabay.com/photo/2015/05/30/21/20/oregano-790702_1280.jpg",
+                    "description": "The oregano plants contains compounds that can deter certain insects.",
+                    "cost": "$10",
+                    "info-card": "Oregano has potent antioxidant, antibacterial, and anti-inflammatory properties due to its rich content of phenolic compounds and essential oils like carvacrol and thymol. It is also a good source of vitamins, including A, C, E, and K, and minerals like iron and calcium, supporting immune health, digestion, and bone health. These properties make oregano a valuable ingredient in food and a beneficial herb for various health conditions."
+                },
+                {
+                    "name": "Marigold (Caléndula)",
+                    "image": "https://cdn.pixabay.com/photo/2022/02/22/05/45/marigold-7028063_1280.jpg",
+                    "description": "Natural insect repellent, also adds color to the garden.",
+                    "cost": "$8",
+                    "info-card": "Marigolds possess properties that are useful in medicine, gardening, and even as a cultural symbol. They have anti-inflammatory, antibacterial, and antioxidant properties, making them effective for skin issues and wound healing. In gardening, marigolds act as natural pest repellents, particularly against nematodes, while also attracting beneficial pollinators like bees and butterflies. Additionally, they contain lutein, which is beneficial for eye health, and the plant is used in folk medicine to address ailments like cramps and digestive issues."
+                },
+                {
+                    "name": "Geraniums (Geranio)",
+                    "image": "https://cdn.pixabay.com/photo/2012/04/26/21/51/flowerpot-43270_1280.jpg",
+                    "description": "Known for their insect-repelling properties while adding a pleasant scent.",
+                    "cost": "$20",
+                    "info-card": "Geranium plant properties include traditional medicinal uses as diuretics, antidiabetic agents, and anti-inflammatory remedies, along with antiseptic and blood-clotting (styptic) properties from its essential oils. The plant is also known to be a mental and physical grounding agent, an antidepressant, and an air purifier, contributing to overall well-being and stress reduction. Additionally, geraniums are used in aromatherapy for their calming effects and in skincare for their astringent and anti-inflammatory benefits."
+                },
+                {
+                    "name": "Basil (Albahaca)",
+                    "image": "https://cdn.pixabay.com/photo/2016/07/24/20/48/tulsi-1539181_1280.jpg",
+                    "description": "Repels flies and mosquitoes, also used in cooking.",
+                    "cost": "$9",
+                    "info-card": "Basil is a popular aromatic culinary herb in the mint family, known for its sweet, clove-like flavor and use in cuisines worldwide, especially Italian and Thai. It is a sun-loving annual with green or sometimes purple leaves, grown for its culinary and medicinal properties. Key uses include flavoring dishes, making pesto, and traditional medicine, while its nutritional content provides vitamins and antioxidants.  Basil also has insect-repellent properties, making it a useful addition to gardens."
+                },
+                {
+                    "name": "Lavender (Lavanda)",
+                    "image": "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "description": "Calming scent, used in aromatherapy.",
+                    "cost": "$20",
+                    "info-card": "Lavender's key properties include analgesic, anti-inflammatory, antiseptic, antibacterial, and calming effects. It is known for its ability to reduce anxiety, improve sleep, relieve pain, promote skin healing, and fight infections. People use lavender for aromatherapy, topical applications, and sometimes in cooking or as a household cleaner."
+                },
+                {
+                    "name": "Catnip (Hierva para gatos)",
+                    "image": "https://cdn.pixabay.com/photo/2015/07/02/21/55/cat-829681_1280.jpg",
+                    "description": "Repels mosquitoes and attracts cats.",
+                    "cost": "$13",
+                    "info-card": "Catnip's properties include its volatile oils like nepetalactone, which are known to affect cats, and its medicinal properties for humans, such as being a diuretic, antipyretic, anti-inflammatory, antioxidant, and nervine. It acts as a sedative and antispasmodic for humans, promoting relaxation, aiding sleep, and soothing digestive issues, making it a potential treatment for anxiety, insomnia, and menstrual cramps."
+                }
+            ]
+        },
+        {
+            "category": "Medicinal Plants",
+            "plants": [
+                {
+                    "name": "Aloe Vera (Sávila)",
+                    "image": "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
+                    "description": "Soothing gel used for skin ailments.",
+                    "cost": "$14",
+                    "info-card": "Aloe vera is a medicinal plant known for its anti-inflammatory, antioxidant, antibacterial, and wound-healing properties, thanks to its rich composition of polysaccharides, vitamins, enzymes, minerals, and amino acids. It is used to promote skin health by hydrating and healing wounds and burns, support digestion, help regulate blood sugar levels, and has applications in cosmetics and functional foods."
+                },
+                {
+                    "name": "Echinacea (Equinacea",
+                    "image": "https://cdn.pixabay.com/photo/2014/12/05/03/53/echinacea-557477_1280.jpg",
+                    "description": "Boosts immune system, helps fight colds.",
+                    "cost": "$16",
+                    "info-card": "Echinacea possesses various properties, including immunostimulatory, anti-inflammatory, antioxidant, antiviral, and antibacterial effects. These properties stem from active compounds like polyphenols, alkamides, polysaccharides, and glycoproteins, which can activate immune cells to fight infections, reduce swelling, neutralize free radicals, and combat viruses, fungi, and bacteria. It also has reported analgesic (pain-relieving) properties, historically used for conditions like headaches and sore throats, and can have topical effects that help with skin conditions like acne and eczema. However, it may cause allergic reactions in some individuals."
+                },
+                {
+                    "name": "Peppermint (Hiervabuena)",
+                    "image": "https://cdn.pixabay.com/photo/2017/07/12/12/23/peppermint-2496773_1280.jpg",
+                    "description": "Relieves digestive issues and headaches.",
+                    "cost": "$13",
+                    "info-card": "Peppermint exhibits properties beneficial for digestion, pain relief, and easier breathing, attributed to its active compounds like menthol and flavonoids. It also shows antiseptic, antibacterial, and antioxidant activities. Additionally, studies suggest benefits for mood, cognitive function, and relief of menstrual cramps, while its use in cosmetics and oral hygiene products leverages its freshening and germ-killing effects. "
+                },
+                {
+                    "name": "Lemon Balm",
+                    "image": "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
+                    "description": "Calms nerves and promotes relaxation.",
+                    "cost": "$14",
+                    "info-card": "Lemon balm possesses sedative, antioxidant, anti-inflammatory, and antimicrobial properties, which stem from its rich composition of rosmarinic acid, flavonoids, and essential oils. It is used to reduce stress and anxiety, improve sleep, ease indigestion, and has been studied for its benefits in treating cold sores, supporting cognitive function, and managing symptoms of depression. "
+                },
+                {
+                    "name": "Chamomile (Manzanilla)",
+                    "image": "https://cdn.pixabay.com/photo/2016/08/19/19/48/flowers-1606041_1280.jpg",
+                    "description": "Soothes anxiety and promotes sleep.",
+                    "cost": "$15",
+                    "info-card": "Chamomile's main properties include anti-inflammatory, antioxidant, and mild astringent qualities, stemming from compounds like apigenin. It is used traditionally for its soothing, mild sedative, and antispasmodic effects, which can help with anxiety, digestive issues, and menstrual discomfort. Additionally, chamomile possesses antibacterial and antifungal properties beneficial for skin health and oral hygiene."
+                },
+                {
+                    "name": "Marigold (Calendula)",
+                    "image": "https://cdn.pixabay.com/photo/2019/07/15/18/28/flowers-4340127_1280.jpg",
+                    "description": "Heals wounds and soothes skin irritations.",
+                    "cost": "$12",
+                    "info-card": "The Calendula plant, also known as pot marigold, is a species in the daisy family (Asteraceae) with bright yellow or orange, daisy-like flowers that have been cultivated for centuries for their culinary, medicinal, and cosmetic uses. These annual or perennial herbaceous plants are native to southern Europe and the Mediterranean region but are widely naturalized. Calendula is a relatively low-maintenance plant that prefers full sun and well-drained soil, and its flowers are edible."
+                }
+            ]
+        },
+        {
+            "category": "Low Maintenance Plants",
+            "plants": [
+                {
+                    "name": "ZZ Plant (Zamioculca)",
+                    "image": "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "description": "Thrives in low light and requires minimal watering.",
+                    "cost": "$25",
+                    "info-card": ""
+                },
+                {
+                    "name": "Pothos (Poto)",
+                    "image": "https://cdn.pixabay.com/photo/2018/11/15/10/32/plants-3816945_1280.jpg",
+                    "description": "Tolerates neglect and can grow in various conditions.",
+                    "cost": "$10",
+                    "info-card": "Pothos plants (Epipremnum aureum) are known for their low-maintenance nature, air-purifying qualities, and aesthetic appeal as a trailing or climbing houseplant. They can filter pollutants like formaldehyde, benzene, and carbon monoxide from indoor air, and their resilience makes them easy to grow in various light conditions. However, pothos is toxic if ingested due to calcium oxalate crystals, causing oral irritation, swelling, and vomiting in pets and humans."
+                },
+                {
+                    "name": "Snake Plant (Lengua de suegra)",
+                    "image": "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
+                    "description": "Needs infrequent watering and is resilient to most pests.",
+                    "cost": "$15",
+                    "info-card": "Snake plants are low-maintenance, aesthetic plants known for purifying indoor air by absorbing volatile organic compounds (VOCs) like benzene and formaldehyde and releasing oxygen, even at night. They also help reduce airborne allergens like dust and dander by adding moisture to the air. Beyond air quality, snake plants are considered a Feng Shui element to bring positive energy, and some traditional beliefs suggest their sap can help heal wounds and reduce inflammation, though medicinal claims are not scientifically proven."
+                },
+                {
+                    "name": "Cast Iron Plant (Aspidistra)",
+                    "image": "https://cdn.pixabay.com/photo/2017/02/16/18/04/cast-iron-plant-2072008_1280.jpg",
+                    "description": "Hardy plant that tolerates low light and neglect.",
+                    "cost": "$20",
+                    "info-card": "The Cast Iron Plant (Aspidistra elatior) is a very hardy, low-maintenance, evergreen perennial known for its extreme durability, tolerance of low light, dry conditions, and neglect. It features long, dark green, lance-shaped leaves, grows in a clumping habit, and is native to the forest floors of Japan and Taiwan. While very tough, it's a slow-growing plant that thrives in well-draining soil and is non-toxic, making it safe for homes with pets.  "
+                },
+                {
+                    "name": "Succulents (Suculentas)",
+                    "image": "https://cdn.pixabay.com/photo/2016/11/21/16/05/cacti-1846147_1280.jpg",
+                    "description": "Drought-tolerant plants with unique shapes and colors.",
+                    "cost": "$18",
+                    "info-card": "ZZ plants have properties that make them ideal indoor companions: they are low-maintenance and drought-tolerant due to water-storing rhizomes, act as air purifiers by removing toxins, and can reduce stress and improve mood by providing a connection to nature. They also have high ornamental value with their glossy leaves and are seen as symbols of wealth and good fortune in Feng Shui."
+                },
+                {
+                    "name": "Aglaonema (Aglaonema)",
+                    "image": "https://cdn.pixabay.com/photo/2014/10/10/04/27/aglaonema-482915_1280.jpg",
+                    "description": "Requires minimal care and adds color to indoor spaces.",
+                    "cost": "$22",
+                    "info-card": "Aglaonema, or Chinese Evergreen, are easy-care houseplants known for their colorful, patterned foliage that can include greens, silvers, pinks, and reds. They thrive in low-light, high-humidity environments and have air-purifying qualities, filtering toxins like benzene and formaldehyde. However, they are toxic if ingested, so they should be kept away from pets and children."
+                }
+            ]
+        }
+    ]
+    }

@@ -43,7 +43,7 @@ function App() {
   }
 
   return (
-    <div className="app-container"></div>
+    <div className="app-container">{renderContent()}</div>
   )
 };
 

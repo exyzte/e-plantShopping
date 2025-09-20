@@ -4,6 +4,7 @@ const uiSlice = createSlice({
     name: 'ui',
     initialState: {
         isCartView: false,
+        showLandingPage: true,
     },
     reducers: {
         toggleView: (state) => {
@@ -11,8 +12,10 @@ const uiSlice = createSlice({
         },
         showCartView: (state) => {
             state.isCartView = true;
+            state.showLandingPage = false;
         },
         showProductListView: (state) => {
+            state.showLandingPage = false;
             state.isCartView = false;
         },
     }
