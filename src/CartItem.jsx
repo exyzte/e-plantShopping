@@ -3,6 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeItem, updateQuantity } from './CartSlice';
 import { showProductListView } from './uiSlice'
 import './CartItem.css';
+import icon from './icons/cart.png';
+
 
 const CartItem = ({ onContinueShopping }) => {
   const cart = useSelector(state => state.cart.items);
@@ -30,7 +32,7 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleDecrement = (item) => {
-    dispatch(updateQuantity({ name: item.name, quantity: item.quantity > 1 ? item.quantity - 1 : handleRemove(item)}));
+    dispatch(updateQuantity({ name: item.name, quantity: item.quantity > 1 ? item.quantity - 1 : dispatch(removeItem(item))}));
   };
 
   const handleRemove = (item) => {
@@ -55,7 +57,7 @@ const CartItem = ({ onContinueShopping }) => {
             <div className="cart-item-details">
               <div className="cart-item-name">{item.name}</div>
               <div className="cart-item-cost">{item.cost}</div>
-              <div className="viewMore">View More...</div>
+              
               <div className="cart-item-quantity">
                 <button className="cart-item-button cart-item-button-dec" onClick={() => handleDecrement(item)}>-</button>
                 <span className="cart-item-quantity-value">{item.quantity}</span>

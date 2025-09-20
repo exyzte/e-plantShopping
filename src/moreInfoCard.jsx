@@ -41,4 +41,4 @@ const infoCardStyle = {
   )
 }
 
-export default More-Info-Card;
+export default moreInfoCard;
