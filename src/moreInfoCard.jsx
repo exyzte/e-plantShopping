@@ -13,7 +13,7 @@ const infoCardStyle = {
       padding: '24px',
       boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)',
       backgroundColor: '#fff',
-      maxWidth: '500px',
+      
       zIndex: 1000,
       textAlign: 'center',
       display: 'flex',
@@ -21,7 +21,7 @@ const infoCardStyle = {
       gap: '20px'
     };
   
-    
+
     const closeButtonStyle = {
       alignSelf: 'flex-end',
       backgroundColor: 'transparent',
@@ -34,7 +34,7 @@ const infoCardStyle = {
     
   return (
     <div className="overlay" onClick={onClose}>
-    <div className="info-card" onCLick={e => e.stopPropagation()}>
+    <div className="info-card" onClick={e => e.stopPropagation()}>
       <div style={infoCardStyle}>
         <button onClick={onClose} style={closeButtonStyle}>&times;</button>
       <p>{info}</p>
