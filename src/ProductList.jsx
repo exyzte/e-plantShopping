@@ -20,7 +20,7 @@ function ProductList({ onHomeClick }) {
     
 
     const styleObj = {
-        backgroundColor: '#62cf73',
+        backgroundColor: '#94c973',
         color: '#fff!important',
         padding: '15px',
         display: 'flex',
