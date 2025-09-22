@@ -95,9 +95,9 @@ function ProductList({ onHomeClick }) {
                     <div className="luxury brand" onClick={handleHomeClick}>
                         <img src={icon} alt="Logo" style={iconStyle} />
                         <a>
-                            <div>
-                                <h3 style={{ color: 'white' }}>Paradise Nursery</h3>
-                                <i style={{ color: 'white' }}>Where Green Meets Serenity</i>
+                            <div className="brand-text">
+                                <h3 style={{ color: 'white' }}>E-Plant Paradise</h3>
+                                <i style={{ color: 'white' }}>Build your dream garden from the confort of your home</i>
                             </div>
                         </a>
                     </div>
@@ -126,8 +126,10 @@ function ProductList({ onHomeClick }) {
                                         <div className="viewMore" onClick={() => showMoreInfo(plant['info-card'])}>View More...</div>
                                         
                                         <button
+
                                             onClick={() => handleAddToCart(plant)}
-                                            className="product-button"
+                                            className={`product-button ${addedToCart[plant.name] ? 'disabled' : ''}`}
+                                            disabled={addedToCart[plant.name]}
                                         >
                                             Add to Cart
                                         </button>

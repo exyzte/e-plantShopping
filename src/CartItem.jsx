@@ -21,6 +21,14 @@ const CartItem = ({ onContinueShopping }) => {
     return total.toFixed(2);
   };
 
+  const calculateTotalQuantity = () => {
+    let totalQuantity = 0;
+    cart.forEach((item) => {
+        totalQuantity += item.quantity;
+    })
+    return totalQuantity;
+  }
+
   const handleContinueShopping = (e) => {
         dispatch(showProductListView());
   };
@@ -33,6 +41,7 @@ const CartItem = ({ onContinueShopping }) => {
   return (
     <div className="cart-container">
       <h2 style={{ color: 'black' }}>Total Cart Amount: ${calculateTotalAmount()}</h2>
+      <h3>Total Items Quantity {calculateTotalQuantity()}</h3>
       <div>
         {cart.length === 0 ? (
           <p className="empty-cart-message">Your cart is empty. Add some plants to your Cart! 🪴</p>

@@ -1,10 +1,10 @@
-/* Reset some default styles */
+
 body, h1, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Set a background color */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #e7f3f0;
@@ -21,18 +21,25 @@ body {
     top: -13px;
     left: 63px;
     border-radius: 50%;
-    background-color: rgb(108, 126, 32);
-    width: 1.2rem;
-    height: 1.2rem;
-    padding-top: 0.1rem;
+    background-color: rgba(18, 68, 5, 0.534);
+    width: 1.4rem;
+    height: 1.4rem;
+    padding-top: 0.2rem;
+    padding-right: 0.1rem;;
     color:rgb(255, 255, 255);
     text-align: center;
     align-items: center;
+    justify-content: center;
     font-size: 1rem;    
-    background-color: #62cf73;
+    
 
   }
 
+  .disabled {
+    pointer-events: none; /* Disable all mouse events */
+    opacity: 0.6; /* Optional: visually indicate that the button is disabled */
+    background-color: grey;
+  }
 
 
 
@@ -55,12 +62,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    /* background-color: pink; */
-    /* justify-content: space-between; */
+   
+ 
     padding: 20px;
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 2rem;
+    height: 20px;
+    width: 28rem;
+    
 }
 
 /* Product Card */
@@ -159,7 +176,7 @@ body {
     flex-direction: row;;
     align-items: center;
     justify-content: space-between;
-    width: 650px;
+    width: 300px;
     font-size: 19px;
 }
 .luxury img {
@@ -256,11 +273,15 @@ body {
       }
     
         .luxury {
-            flex-direction: column; /* Stack items vertically */
+            flex-direction: row; /* Stack items vertically */
             align-items: center; /* Center items horizontally */
             width: auto; /* Allow width to adjust automatically */
             font-size: 18px; /* Slightly reduce font size for better fit */
+            overflow: hidden;
+            margin-top: 1rem;
         }
-  }
+        .brand-text i {
+            display: none; /* Hide icons on smaller screens */
+        }
 
   
