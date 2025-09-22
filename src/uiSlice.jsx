@@ -18,9 +18,13 @@ const uiSlice = createSlice({
             state.showLandingPage = false;
             state.isCartView = false;
         },
+        showLandingPage: (state) => {
+            state.showLandingPage = true;
+            state.isCartView = false;
+        }
     }
 });
 
-export const { toggleView, showCartView, showProductListView } = uiSlice.actions;
+export const { toggleView, showCartView, showProductListView, showLandingPage } = uiSlice.actions;
 
 export default uiSlice.reducer;

@@ -12,49 +12,34 @@ body {
 
 /* Navbar */
 
-
+.brand {
+    cursor: pointer;
+}
 
 .itemsNumber {
     position: relative;
     top: -13px;
     left: 63px;
     border-radius: 50%;
-    background-color: rgb(241, 143, 56);
-    width: 17px;
-    height: 17px;
+    background-color: rgb(108, 126, 32);
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-top: 0.1rem;
     color:rgb(255, 255, 255);
     text-align: center;
-    font-size: 14px;
+    align-items: center;
+    font-size: 1rem;    
+    background-color: #62cf73;
 
   }
 
-.navbar {
-    background-color: #4CAF50;
-    color: #fff!important;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-}
 
-.navbar .ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1100px;
-}
 
-.navbar li {
-    margin-right: 30px;
-}
 
-.navbar .ul div a {
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
-   
-}
+
+
+
+
 
 /* Product Grid */
 .product-grid {
@@ -99,7 +84,21 @@ body {
     z-index: 1;
 }
 
-
+.viewMore {
+    color:rgb(21, 88, 72);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.viewMore:hover {
+    color:rgb(31, 123, 139);
+    
+    font-size: 0.9rem;
+    margin: 9px;
+    cursor: pointer;
+}
 
 .product-title {
     font-weight: bold;
@@ -181,10 +180,10 @@ body {
 }
 .cart_quantity_count{
     margin-top: 16px;
-    /* background-color: red; */
+
     margin-left: 27px;
     position: absolute;
-    font-size: 29px;
+    font-size: 2rem;
 
 }
 .plantname_heading{
@@ -256,7 +255,7 @@ body {
       max-width: calc(50% - 20px); /* Adjust max-width for 2 cards per row with 20px gap on small screens */
     }
     .navbar {
-        flex-direction: column; /* Change flex direction to stack items vertically */
+        flex-direction: row; 
         align-items: center; /* Align items to the center of the container */
       }
     
@@ -265,15 +264,12 @@ body {
         text-align: center; /* Align text to the center */
       }
     
-      .ul {
-        display: flex; /* Set display to flex */
-        flex-direction: column; /* Change flex direction to stack items vertically */
-        gap: 10px; /* Add gap between items */
-      }
-    
-      .ul div {
-        text-align: center; /* Align text to the center */
-      }
+        .luxury {
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            width: auto; /* Allow width to adjust automatically */
+            font-size: 18px; /* Slightly reduce font size for better fit */
+        }
   }
 
   

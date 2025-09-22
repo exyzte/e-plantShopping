@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeItem, updateQuantity } from './CartSlice';
 import { showProductListView } from './uiSlice'
 import './CartItem.css';
-import icon from './icons/cart.png';
 import AnimatedCartItem from './AnimatedCartItems';
 
 

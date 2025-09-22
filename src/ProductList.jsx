@@ -3,10 +3,10 @@ import './ProductList.css'
 import CartItem from './CartItem';
 import { addItem } from './CartSlice';
 import { useSelector, useDispatch } from 'react-redux';
-import { showCartView, showProductListView } from './uiSlice';
+import { showCartView, showLandingPage } from './uiSlice';
 import { cartCounter } from './CartSlice';
 import plantsData from './json/plants.json';
-import moreInfoCard from './moreInfoCard';
+import MoreInfoCard from './MoreInfoCard';
 import icon from './icons/icon.png';
 import cart from './icons/cart.png';
 
@@ -20,7 +20,7 @@ function ProductList({ onHomeClick }) {
     
 
     const styleObj = {
-        backgroundColor: '#4CAF50',
+        backgroundColor: '#62cf73',
         color: '#fff!important',
         padding: '15px',
         display: 'flex',
@@ -28,6 +28,9 @@ function ProductList({ onHomeClick }) {
         justifyContent: 'space-between',
         alignIems: 'center',
         fontSize: '20px',
+        paddingLeft: '35px',
+        height: '5.4rem',
+        marginBottom: '20px',
     }
     const styleObjUl = {
         display: 'flex',
@@ -43,7 +46,7 @@ function ProductList({ onHomeClick }) {
 
     const handleHomeClick = (e) => {
         e.preventDefault();
-        onHomeClick();
+        dispatch(showLandingPage());
     };
 
     const handleCartClick = (e) => {
@@ -51,15 +54,9 @@ function ProductList({ onHomeClick }) {
         dispatch(showCartView());
     };
 
-    const handlePlantsClick = (e) => {
-        e.preventDefault();
-        dispatch(showProductListView()); // Hide the cart when navigating to About Us
-    };
+    
 
-    const handleContinueShopping = (e) => {
-        e.preventDefault();
-        dispatch(showProductListView());
-    };
+
 
     const handleAddToCart = (product) => {
         dispatch(addItem(product));
@@ -95,9 +92,9 @@ function ProductList({ onHomeClick }) {
         <div>
             <div className="navbar" style={styleObj}>
                 <div className="tag">
-                    <div className="luxury">
+                    <div className="luxury brand" onClick={handleHomeClick}>
                         <img src={icon} alt="Logo" style={iconStyle} />
-                        <a href="/" onClick={(e) => handleHomeClick(e)}>
+                        <a>
                             <div>
                                 <h3 style={{ color: 'white' }}>Paradise Nursery</h3>
                                 <i style={{ color: 'white' }}>Where Green Meets Serenity</i>
@@ -107,15 +104,13 @@ function ProductList({ onHomeClick }) {
 
                 </div>
                 <div style={styleObjUl}>
-                    <div> <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleA}>Plants</a></div>
+                    <div> <a href="#" style={styleA}> </a></div>
                     <div> <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}> <img src={cart} alt="cart-icon" style={iconStyle} /> </a><div className="itemsNumber">{cartCount}</div> </div>
                     
                 </div>
             </div>
             {isCartView ? (
                 <CartItem />
-            ) : isInfoCardVisible ? ( 
-                <moreInfoCard info={selectedPlantInfo} onClose={hideMoreInfo} />
             ) : (
                 <div className="product-grid">
                     {plantsData.categories.map((category, index) => (
@@ -129,7 +124,7 @@ function ProductList({ onHomeClick }) {
                                         <div className="product-description">{plant.description}</div>
                                         <div className="product-cost">{plant.cost}</div>
                                         <div className="viewMore" onClick={() => showMoreInfo(plant['info-card'])}>View More...</div>
-                                        <div className="info-card" ></div>
+                                        
                                         <button
                                             onClick={() => handleAddToCart(plant)}
                                             className="product-button"
@@ -142,6 +137,10 @@ function ProductList({ onHomeClick }) {
                         </div>
                     ))}
                 </div>
+            )} 
+            {isInfoCardVisible && (
+                <MoreInfoCard info={selectedPlantInfo} onClose={hideMoreInfo} />
+                
             )}
         </div>
     );

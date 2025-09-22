@@ -1,8 +1,7 @@
 import React from 'react';
-import plantData from './json/plants.json'
-import { useState, useEffect } from 'react';
+import './MoreInfoCard.css';
 
-function moreInfoCard(  ) {
+function MoreInfoCard({ info, onClose }) {
 
 const infoCardStyle = {
       position: 'fixed',
@@ -22,7 +21,7 @@ const infoCardStyle = {
       gap: '20px'
     };
   
-
+    
     const closeButtonStyle = {
       alignSelf: 'flex-end',
       backgroundColor: 'transparent',
@@ -34,11 +33,15 @@ const infoCardStyle = {
 
     
   return (
-    <div style={infoCardStyle}>
-      <button onClick={onClose} style={closeButtonStyle}>&times;</button>
+    <div className="overlay" onClick={onClose}>
+    <div className="info-card" onCLick={e => e.stopPropagation()}>
+      <div style={infoCardStyle}>
+        <button onClick={onClose} style={closeButtonStyle}>&times;</button>
       <p>{info}</p>
+      </div>
+    </div>
     </div>
   )
 }
 
-export default moreInfoCard;
+export default MoreInfoCard;
