@@ -10,7 +10,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: #f8f8f8;
+  overflow: hidden;
 }
 
 .background-image {
@@ -19,10 +19,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg');
-  background-size: 100% 100%;
+  background-image: url('https://images.pexels.com/photos/19289046/pexels-photo-19289046.jpeg');
+  background-size: cover;
   background-position: center;
-  filter: brightness(0.8);
+  filter: brightness(0.7);
 }
 .content {
   display: flex;
@@ -30,24 +30,26 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
- top: 100px;
+  top: 100px;
   backdrop-filter: blur(4px);
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   gap: 20px;
+  padding: 0 5%;
+  gap: 50px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
+  
   z-index: 1;
-  text-align: center;
+  text-align: left;
   /* background-color: red; */
   width: 400px;
   height: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  flex-basis: 45%;
+  padding: 30px;
   justify-content: center;
   gap: 10px;
 }
@@ -58,7 +60,7 @@
 }
 
 .content h1 {
-  font-size: 48px;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
@@ -75,10 +77,10 @@
 
 .get-started-button {
   padding: 15px 25px;
-  font-size: 23px;
+  font-size: 1.5rem;
   border: none;
   border-radius: 5px;
-  background-color: #4caf50;
+  background-color: #4c7aaf;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -86,7 +88,7 @@
 }
 
 .get-started-button:hover {
-  background-color: #45a049;
+  background-color: #325974;
 }
 
 /* ProductList.css */
@@ -123,25 +125,52 @@
   }
 
   .landing_content {
-    margin-top: 100px; /* Adjust as needed */
-    margin-left: 0;
-    width: 80%; /* Adjust as needed */
-    text-align: center;
+  z-index: 1;
+  text-align: left; 
+  flex-basis: 45%; 
+  max-width: 500px; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   }
 
-  .aboutus_container {
-    margin-top: 20px; /* Adjust as needed */
-    width: 80%; /* Adjust as needed */
+ 
+
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  /* Adjust gap for medium screens */
+  .content {
+    gap: 30px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .landing_content {
-    margin-top: 50px; /* Adjust as needed */
-    width: 90%; /* Adjust as needed */
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Start from the top */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: auto; /* Allow content to dictate height */
+    
   }
 
-  .aboutus_container {
-    width: 90%; /* Adjust as needed */
+  .landing_content {
+    flex-basis: auto;
+    width: 100%;
+    margin-top: 50px; /* Add space from the top */
+    text-align: center;
+  }
+  
+  .landing_content h1 {
+    font-size: 36px;
+  }
+
+  
+  .divider {
+    margin: 10px auto; /* Center the divider */
   }
 }
