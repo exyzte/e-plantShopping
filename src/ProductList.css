@@ -16,6 +16,10 @@ body {
     cursor: pointer;
 }
 
+.brand-text {
+    margin-top: -25px;
+}
+
 .itemsNumber {
     position: relative;
     top: -13px;
@@ -36,7 +40,7 @@ body {
   }
 
   .disabled {
-    pointer-events: none; /* Disable all mouse events */
+    pointer-events: none; 
     opacity: 0.6; /* Optional: visually indicate that the button is disabled */
     background-color: grey;
   }

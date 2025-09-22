@@ -29,10 +29,11 @@ function ProductList({ onHomeClick }) {
         alignIems: 'center',
         fontSize: '20px',
         paddingLeft: '35px',
-        height: '5.4rem',
+        height: '6rem',
         marginBottom: '20px',
     }
     const styleObjUl = {
+        marginTop: '4px',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
